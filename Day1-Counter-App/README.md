@@ -10,7 +10,6 @@ A simple counter app built with **React** using the `useState` hook.
 
 - Increment count
 - Decrement count
-- Reset count
 
 ## Learnings
 
