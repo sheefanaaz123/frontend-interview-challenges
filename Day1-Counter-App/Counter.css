@@ -1,0 +1,114 @@
+/* 
+  The body and html elements are styled to take full height of the viewport,
+  remove default margin, and use flexbox to center content both horizontally and vertically.
+  Background color is set to a light shade for visual appeal.
+*/
+
+body,
+html {
+  height: 100%; /* Make body and html take full height of the viewport */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  background: #e2f1ec; /* Light background color */
+}
+
+/* 
+  The counterBox class styles the container of the counter.
+  It uses flexbox to arrange children vertically and center them.
+  Background is a gradient for a nice color effect.
+  Rounded corners, padding, fixed width, and shadow for aesthetics.
+  Font family is set for consistent typography.
+  User-select none disables text selection inside the box.
+*/
+
+.counterBox {
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Arrange children vertically */
+  align-items: center; /* Center children horizontally */
+  background: linear-gradient(
+    135deg,
+    #ff6f91 0%,
+    #a0e8af 50%,
+    #b9fbc0 80%
+  ); /* More distinct pink mint gradient background */
+  border-radius: 12px; /* Rounded corners */
+  padding: 20px; /* Inner spacing */
+  width: 150px; /* Fixed width */
+  box-shadow: 0 4px 15px rgba(241, 136, 229, 0.4); /* Soft shadow */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Font family */
+  user-select: none; /* Disable text selection */
+}
+
+/* 
+  Styles for the main heading (h1).
+  Center aligned text, dark color, margin below, and bold font weight.
+*/
+h1 {
+  text-align: center; /* Center text */
+  font-size: 2rem; /* Font size */
+  color: #ee198e; /* Dark gray color */
+  margin-bottom: 15px; /* Space below */
+  font-weight: 700; /* Bold font */
+}
+
+/* 
+  Styles for the count display (h2).
+  Large font size, margin above and below, white color with subtle shadow for readability.
+*/
+h2 {
+  font-size: 3rem; /* Large font size */
+  margin: 10px 0; /* Vertical margin */
+  color: #fff; /* White color */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow for contrast */
+}
+
+/* 
+  Styles for buttons.
+  White background, no border, rounded corners, padding, margin, font styling,
+  orange text color, pointer cursor, shadow for depth, smooth transition on hover,
+  and full width to match container.
+*/
+button {
+  background-color: #fff; /* White background */
+  border: none; /* No border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px 20px; /* Padding */
+  margin: 5px 0; /* Vertical margin */
+  font-size: 1rem; /* Font size */
+  font-weight: 600; /* Semi-bold font */
+  color: #fda085; /* Orange text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 2px 8px rgba(253, 160, 133, 0.5); /* Shadow for depth */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Full width */
+}
+
+/* 
+  Button hover state.
+  Background changes to orange and text color to white for contrast.
+*/
+button:hover {
+  background-color: #fda085; /* Orange background */
+  color: #fff; /* White text */
+}
+
+/* 
+  Button active (pressed) state.
+  Inner shadow to simulate pressed effect.
+*/
+button:active {
+  box-shadow: inset 0 2px 8px rgba(253, 213, 133, 0.7); /* Inner shadow */
+}
+
+/* 
+  Disabled button style.
+  Light gray background, gray text, no shadow, and not-allowed cursor.
+*/
+button:disabled {
+  background-color: #f0e6e1; /* Light gray background */
+  color: #c7b7b0; /* Gray text */
+  cursor: not-allowed; /* Not-allowed cursor */
+  box-shadow: none; /* Remove shadow */
+}
