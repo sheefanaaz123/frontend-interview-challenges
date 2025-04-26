@@ -1,6 +1,3 @@
-Here’s the completed **README.md** file:
-
-```markdown
 # Frontend Interview Challenges
 
 Welcome to my **Frontend Interview Challenges** repository! This repository contains a series of coding challenges and projects designed to help prepare for frontend interviews. I will be solving various problems using **React**, **JavaScript**, and other modern web technologies.
@@ -72,4 +69,4 @@ This repository will serve as a place to document my progress and practice for *
 - LinkedIn: [@sheefanaaz123](https://www.linkedin.com/in/sheefanaaz123)
 
 Happy coding! 🎉
-```
+
