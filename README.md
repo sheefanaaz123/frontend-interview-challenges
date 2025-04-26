@@ -1,3 +1,6 @@
+Here’s the completed **README.md** file:
+
+```markdown
 # Frontend Interview Challenges
 
 Welcome to my **Frontend Interview Challenges** repository! This repository contains a series of coding challenges and projects designed to help prepare for frontend interviews. I will be solving various problems using **React**, **JavaScript**, and other modern web technologies.
@@ -21,7 +24,7 @@ This repo covers a wide range of frontend interview challenges that will help yo
 - **HTML/CSS** (Flexbox, Grid)
 - **Material UI** (For styling)
 - **Git/GitHub** (Version Control)
-  
+
 ## 🧠 Learning Approach
 
 1. **Problem-Solving**: Each challenge starts with a simple problem statement followed by an approach and the solution. I focus on **clean code**, **scalability**, and **efficiency**.
@@ -35,3 +38,38 @@ To start using this repo for your own practice or learning:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/sheefanaaz123/frontend-interview-challenges.git
+   ```
+2. **Navigate to the directory:**
+   ```bash
+   cd frontend-interview-challenges
+   ```
+3. **Install dependencies** (if any):
+   ```bash
+   npm install
+   ```
+
+4. **Start solving the challenges!**
+
+Feel free to fork this repo, contribute, or ask questions. If you have suggestions or improvements for any challenges, don't hesitate to open an issue or pull request.
+
+## 🔥 Current Challenges
+
+- **Day 1: Counter App** – Implement a counter with React using `useState`.
+- **Day 2: Todo App** – Build a basic to-do list with add and delete functionalities.
+
+## 📝 Articles and Documentation
+
+For each challenge, you can find articles and detailed write-ups on my **[Medium](https://medium.com/@sheefanaaz123)** account, where I share detailed explanations, tips, and learnings.
+
+## 🎯 Goal
+
+This repository will serve as a place to document my progress and practice for **frontend developer interviews**. I aim to build a strong foundation in **React** and **JavaScript** while solving practical, real-world challenges.
+
+## 🚀 Let's Connect
+
+- GitHub: [@sheefanaaz123](https://github.com/sheefanaaz123)
+- Medium: [@sheefanaaz123](https://medium.com/@sheefanaaz123)
+- LinkedIn: [@sheefanaaz123](https://www.linkedin.com/in/sheefanaaz123)
+
+Happy coding! 🎉
+```
