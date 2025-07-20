@@ -52,7 +52,7 @@ Feel free to fork this repo, contribute, or ask questions. If you have suggestio
 ## 🔥 Current Challenges
 
 - **Day 1: Counter App** – Implement a counter with React using `useState`.
-- **Day 2: Todo App** – Build a basic to-do list with add and delete functionalities.
+- **Day 2: Basic CSS Styled page** – Built a basic landing page which is responsive using just html and css.
 
 ## 📝 Articles and Documentation
 
